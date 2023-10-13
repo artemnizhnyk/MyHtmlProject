@@ -4,10 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="static/files/favicon_io/site.webmanifest">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="static/css/bgvideo.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="static/css/mycss.css">
 </head>
 
@@ -36,6 +41,8 @@
     </header>
 
     <section>
+        <video src="static/files/background.mp4" type="video/mp4" autoplay muted loop></video>
+
         <div class="container-fluid mt-4">
 
 
@@ -56,7 +63,7 @@
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                                     aria-label="Slide 3"></button>
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner ">
                                 <div class="carousel-item active">
                                     <div class="d-block w-100">
                                         <div class="row">
@@ -64,7 +71,8 @@
                                                 <img src="static/images/1.jpg" class="w-100" alt="">
                                             </div>
                                             <div class="col-lg-5 col-md-5">
-                                                <p class="slide-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+                                                <p class="slide-text">Lorem ipsum dolor sit, amet consectetur
+                                                    adipisicing elit. Doloremque
                                                     corporis temporibus ad omnis perferendis debitis sequi itaque,
                                                     aliquam
                                                     quis quaerat impedit vero ipsam dignissimos quod.</p>
@@ -76,7 +84,8 @@
                                     <div class="d-block w-100">
                                         <div class="row">
                                             <div class="col-lg-5 col-md-5">
-                                                <p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+                                                <p class="slide-text">Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Facilis
                                                     dolores
                                                     ea animi porro nam dignissimos?</p>
                                             </div>
@@ -93,7 +102,8 @@
                                                 <img src="static/images/3.jpg" class="w-100" alt="">
                                             </div>
                                             <div class="col-lg-5 col-md-5">
-                                                <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+                                                <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Mollitia
                                                     tempore, ad dolores quos neque qui, quaerat hic, cum quis
                                                     perferendis
                                                     possimus inventore?</p>
@@ -203,22 +213,24 @@
                         <div class="column-lg-12 sidebar my-4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ratione animi itaque.
                                 Laboriosam minima maiores odit cum at sequi tenetur doloribus nisi quam consequuntur,
-                                recusandae quod? <a href="#">Learn more>>></a></p>
+                                recusandae quod? <br><br><a href="#">Learn more...</a></p>
                         </div>
                         <div class="column-lg-12 sidebar my-4">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus asperiores amet
-                                possimus dolor deleniti cupiditate magnam accusamus earum doloremque dignissimos!<a
-                                    href="#">Learn more>>></a></p>
+                                possimus dolor deleniti cupiditate magnam accusamus earum doloremque dignissimos!
+                                <br><br><a href="#">Learn more...</a>
+                            </p>
                         </div>
                         <div class="column-lg-12 sidebar my-4">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit qui natus sed totam?
-                                <a href="#">Learn more>>></a>
+                                <br><br><a href="#">Learn more...</a>
                             </p>
                         </div>
                         <div class="column-lg-12 sidebar my-4">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda accusamus
-                                exercitationem laborum quaerat, sit saepe quae totam repellendus aspernatur excepturi!<a
-                                    href="#">Learn more>>></a></p>
+                                exercitationem laborum quaerat, sit saepe quae totam repellendus aspernatur excepturi!
+                                <br><br><a href="#">Learn more...</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -230,8 +242,21 @@
 
     </section>
 
-    <footer>
-
+    <footer class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footer-text">
+                    <span><a href="#">Rights Reserved 2023</a></span>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <span><a href="#">Contacts </a> <a href="#"> Job </a> <a href="#">Our Team</a></span>
+                </div>
+                <div class="col-lg-4 col-md-12 text-end">
+                    <a href="#"><img style="width: 23px; margin-inline: 0.5em;" src="static/images/yt.png" alt=""></a>
+                    <a href="#"><img style="width: 21px; margin-inline: 0.5em;" src="static/images/tg.png" alt=""></a>
+                </div>
+            </div>
+        </div>
 
 
     </footer>

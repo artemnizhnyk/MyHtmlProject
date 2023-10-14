@@ -18,6 +18,11 @@ body {
     box-shadow: 9px 7px 10px 1px #000000;
     background: linear-gradient(270deg, #f4e8f8c3 0%, #b577de 100%);
     color:#1f1c1c ;
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px;
 }
 
 .nav-link {
